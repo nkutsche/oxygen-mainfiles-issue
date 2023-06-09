@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+The file must be saved inside a framework directory, the same place where a *.framework file should sit.
+
+To generate a *.framework file out of the script, you need to use the "Compile Framework Extension script" action 
+from the contextual menu.
+-->
+<script xmlns="http://www.oxygenxml.com/ns/framework/extend"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.oxygenxml.com/ns/framework/extend http://www.oxygenxml.com/ns/framework/extend/frameworkExtensionScript.xsd">
+  <name>Main File Test</name>
+  <description></description>
+  <priority>Highest</priority>
+  
+  
+  <associationRules>
+    <addRule namespace="example.com" rootElementLocalName="root" fileName="*" publicID="*" javaRuleClass=""
+      attributeLocalName="*" attributeNamespace="*" attributeValue="*"/>
+    <!--<addRule namespace="*" rootElementLocalName="root" fileName="*" publicID="*" javaRuleClass=""
+      attributeLocalName="*" attributeNamespace="*" attributeValue="*"/>-->
+  </associationRules>
+  
+  <validationScenarios inherit="none">
+    <addScenarios href="${framework}/val/validation.SCENARIOS"/>
+    <defaultScenarios>
+      <name>main-validation</name>
+    </defaultScenarios>
+  </validationScenarios>
+  
+  
+</script>

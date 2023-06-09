@@ -1,0 +1,17 @@
+datatypes xs = "http://www.w3.org/2001/XMLSchema-datatypes"
+default namespace =  "example.com"
+
+start = root
+
+root = element root {module*}
+
+module = element module {xmlbase, ( a | target)*}
+
+a = element a {ref}
+
+ref = attribute ref {xs:IDREF}
+
+target = element target {id}
+id = attribute id {xs:ID}
+
+xmlbase = attribute xml:base {xs:anyURI}

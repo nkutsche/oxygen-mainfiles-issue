@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="example.com">
+    <target id="id1"/>
+    <target id="id2"/>
+    <target id="id3"/>
+</module>
