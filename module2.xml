@@ -2,5 +2,5 @@
 <module xmlns="example.com">
     <a ref="id1"/>
     <a ref="id2"/>
-    <a ref="id4"/>
+    <a ref="id3"/>
 </module>
