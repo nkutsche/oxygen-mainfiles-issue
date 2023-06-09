@@ -15,7 +15,7 @@ from the contextual menu.
   
   
   <associationRules>
-    <addRule namespace="example.com" rootElementLocalName="root" fileName="*" publicID="*" javaRuleClass=""
+    <addRule namespace="example.com" rootElementLocalName="*" fileName="*" publicID="*" javaRuleClass=""
       attributeLocalName="*" attributeNamespace="*" attributeValue="*"/>
     <!--<addRule namespace="*" rootElementLocalName="root" fileName="*" publicID="*" javaRuleClass=""
       attributeLocalName="*" attributeNamespace="*" attributeValue="*"/>-->
